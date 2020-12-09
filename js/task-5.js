@@ -1,8 +1,7 @@
 const checkForSpam = function (message) {
-    message.length
+   
     return message.includes('sale') ||
     message.includes('SPAM')
-
 };
 
 console.log(checkForSpam('Latest technology news')); // false
